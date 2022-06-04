@@ -1,0 +1,128 @@
+body{
+    background-image: url(images/page.png);
+    background-size: 1930px 1080px;
+}
+
+
+
+.Texts{
+    position: absolute;
+    top: 500px;
+    left: 266px;
+}
+
+
+.inputTexts{
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 30px;
+  margin: 0 89px;
+  border-radius: 50px;
+  border-color: rgb(212, 37, 189);
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+  background-image: url(images/gliterzonroxo.gif);
+  color: rgb(37, 0, 29);
+}
+
+
+.Calcular{
+    position: absolute; 
+    text-align: center;
+    top: 505px;
+    left: 830px;
+
+    display: inline-block;
+    padding: 25px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(37, 0, 29);
+    background-color: #ec58bb;
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 0 9px rgb(92, 12, 72);
+}
+
+.Calcular:hover {background-color: #eb55b9}
+
+.Calcular:active {
+    background-color: #b13186;
+    box-shadow: 0 5px rgb(78, 9, 61);
+    transform: translateY(4px);
+  }
+
+.Refazer{
+
+    position: absolute; 
+    text-align: center;
+    top: 750px;
+    right: 150px;
+
+    display: inline-block;
+    padding: 30px 50px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(37, 0, 29);
+    background-color: #d846a7;
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 0 9px rgb(92, 12, 72);
+    background-image: url(images/gliterzonroxo.gif);
+
+}
+
+
+.Refazer:active {
+    background-color: rgb(78, 9, 61);
+    box-shadow: 0 5px rgb(78, 9, 61);
+    transform: translateY(4px);
+  }
+
+
+.nome1{
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(37, 0, 29);
+    position: absolute;
+    left: 265px;
+    font-size: 25px;
+    top: -10px;
+}
+
+.nome2{
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(37, 0, 29);
+    position: absolute;
+    left: 915px;
+    top: -10px;
+    font-size: 25px;
+}
+
+h1{
+    font-family: 'Luckiest Guy', cursive;
+    position: absolute;
+    left: 590px;
+    top: 20px;
+    font-size: 60px;
+    color: rgb(37, 0, 29);
+}
+
+.Resultado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 370px;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 60px;
+    color: rgb(37, 0, 29);
+    text-align: center;
+}
